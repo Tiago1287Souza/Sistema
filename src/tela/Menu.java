@@ -44,22 +44,28 @@ public class Menu extends javax.swing.JFrame {
         jMenu1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/iconfinder-gymsports-and-competitionarchitecture-and-cityfitnessarchitecturebuildingsportexercise-4394760_119508.png"))); // NOI18N
         jMenu1.setText("Cadastro");
 
+        jMenu6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/register_login_signup_icon_219991.png"))); // NOI18N
         jMenu6.setText("Alunos");
 
+        jMenuItem1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/edit_user_student_staff_person_icon-icons.com_75492 (1).png"))); // NOI18N
         jMenuItem1.setText("Cadastrar");
         jMenu6.add(jMenuItem1);
 
+        jMenuItem2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/1490129321-rounded10_82180.png"))); // NOI18N
         jMenuItem2.setText("Consultar");
         jMenu6.add(jMenuItem2);
 
         jMenu1.add(jMenu6);
 
+        jMenu7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/download-compresskaru.com.png"))); // NOI18N
         jMenu7.setText("Professores");
 
+        jMenuItem3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/edit_user_student_staff_person_icon-icons.com_75492 (1).png"))); // NOI18N
         jMenuItem3.setText("Cadastrar");
         jMenu7.add(jMenuItem3);
 
-        jMenuItem4.setText("jMenuItem4");
+        jMenuItem4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/1490129321-rounded10_82180.png"))); // NOI18N
+        jMenuItem4.setText("Consultar");
         jMenuItem4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jMenuItem4ActionPerformed(evt);
@@ -71,15 +77,19 @@ public class Menu extends javax.swing.JFrame {
 
         jMenuBar1.add(jMenu1);
 
+        jMenu2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/dumbbell_gym_icon_124413.png"))); // NOI18N
         jMenu2.setText("Aparelhos");
         jMenuBar1.add(jMenu2);
 
+        jMenu3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tela/shoppaymentorderbuy-04_icon-icons.com_73886.png"))); // NOI18N
         jMenu3.setText("Financeiro");
         jMenuBar1.add(jMenu3);
 
+        jMenu4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tela/settings_78352.png"))); // NOI18N
         jMenu4.setText("Ferramentas");
         jMenuBar1.add(jMenu4);
 
+        jMenu5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/Logout_37127.png"))); // NOI18N
         jMenu5.setText("Sair");
         jMenuBar1.add(jMenu5);
 
@@ -89,7 +99,7 @@ public class Menu extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+            .addGap(0, 529, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
