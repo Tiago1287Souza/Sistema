@@ -81,11 +81,11 @@ public class Menu extends javax.swing.JFrame {
         jMenu2.setText("Aparelhos");
         jMenuBar1.add(jMenu2);
 
-        jMenu3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tela/shoppaymentorderbuy-04_icon-icons.com_73886.png"))); // NOI18N
+        jMenu3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/shoppaymentorderbuy-04_icon-icons.com_73886.png"))); // NOI18N
         jMenu3.setText("Financeiro");
         jMenuBar1.add(jMenu3);
 
-        jMenu4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tela/settings_78352.png"))); // NOI18N
+        jMenu4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/1492616984-13-setting-configure-repair-support-optimization-google_83419.png"))); // NOI18N
         jMenu4.setText("Ferramentas");
         jMenuBar1.add(jMenu4);
 
