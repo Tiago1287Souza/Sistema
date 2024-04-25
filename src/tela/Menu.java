@@ -36,6 +36,10 @@ public class Menu extends javax.swing.JFrame {
         jMenuItem4 = new javax.swing.JMenuItem();
         jMenu2 = new javax.swing.JMenu();
         jMenu3 = new javax.swing.JMenu();
+        jMenu8 = new javax.swing.JMenu();
+        jMenuItem5 = new javax.swing.JMenuItem();
+        jMenuItem6 = new javax.swing.JMenuItem();
+        jMenu9 = new javax.swing.JMenu();
         jMenu4 = new javax.swing.JMenu();
         jMenu5 = new javax.swing.JMenu();
 
@@ -83,6 +87,24 @@ public class Menu extends javax.swing.JFrame {
 
         jMenu3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/shoppaymentorderbuy-04_icon-icons.com_73886.png"))); // NOI18N
         jMenu3.setText("Financeiro");
+
+        jMenu8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/pay_cash_payment_money_dollar_bill_icon_143267.png"))); // NOI18N
+        jMenu8.setText("PAGAMENTO");
+
+        jMenuItem5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/pix.png"))); // NOI18N
+        jMenuItem5.setText("PIX");
+        jMenu8.add(jMenuItem5);
+
+        jMenuItem6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/Safeimagekit-resized-img.png"))); // NOI18N
+        jMenuItem6.setText("BOLETO");
+        jMenu8.add(jMenuItem6);
+
+        jMenu3.add(jMenu8);
+
+        jMenu9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/3925438-cash-money-personal-personal-wallet-purse-wallet-wallet-icon_111558.png"))); // NOI18N
+        jMenu9.setText("CONSULTAR");
+        jMenu3.add(jMenu9);
+
         jMenuBar1.add(jMenu3);
 
         jMenu4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/1492616984-13-setting-configure-repair-support-optimization-google_83419.png"))); // NOI18N
@@ -156,10 +178,14 @@ public class Menu extends javax.swing.JFrame {
     private javax.swing.JMenu jMenu5;
     private javax.swing.JMenu jMenu6;
     private javax.swing.JMenu jMenu7;
+    private javax.swing.JMenu jMenu8;
+    private javax.swing.JMenu jMenu9;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JMenuItem jMenuItem2;
     private javax.swing.JMenuItem jMenuItem3;
     private javax.swing.JMenuItem jMenuItem4;
+    private javax.swing.JMenuItem jMenuItem5;
+    private javax.swing.JMenuItem jMenuItem6;
     // End of variables declaration//GEN-END:variables
 }
