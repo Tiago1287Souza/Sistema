@@ -10,4 +10,9 @@ package modelo;
  */
 public class Usuarios {
     
+    long id;
+    String nome;
+    int idade;
+    String tipopessoa;
+    
 }
