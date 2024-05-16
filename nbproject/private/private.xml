@@ -3,7 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+<<<<<<< HEAD
             <file>file:/C:/Users/PC/Documents/projeto/Sistema/src/dao/conexao.java</file>
+=======
+            <file>file:/C:/Users/aluno/Documents/Sistema/src/tela/Menu.java</file>
+            <file>file:/C:/Users/aluno/Documents/Sistema/src/tela/TelaLogin.java</file>
+            <file>file:/C:/Users/aluno/Documents/Sistema/src/modelo/Usuarios.java</file>
+            <file>file:/C:/Users/aluno/Documents/Sistema/src/dao/conexao.java</file>
+>>>>>>> a63855956d0aceef68e677082e14f8f058dff2ff
         </group>
     </open-files>
 </project-private>
